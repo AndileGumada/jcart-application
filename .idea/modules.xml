@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jcart.iml" filepath="$PROJECT_DIR$/jcart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jcart-admin/jcart-admin.iml" filepath="$PROJECT_DIR$/jcart-admin/jcart-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jcart-core/jcart-core.iml" filepath="$PROJECT_DIR$/jcart-core/jcart-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jcart-site/jcart-site.iml" filepath="$PROJECT_DIR$/jcart-site/jcart-site.iml" />
+    </modules>
+  </component>
+</project>
