@@ -1,0 +1,12 @@
+com/andile/jcart/model/OrderStatus.class
+com/andile/jcart/JCartCoreApplication.class
+com/andile/jcart/model/Order.class
+com/andile/jcart/model/OrderItem.class
+com/andile/jcart/model/Product.class
+com/andile/jcart/model/Category.class
+com/andile/jcart/model/Role.class
+com/andile/jcart/model/Customer.class
+com/andile/jcart/model/Address.class
+com/andile/jcart/model/User.class
+com/andile/jcart/model/Payment.class
+com/andile/jcart/model/Permission.class

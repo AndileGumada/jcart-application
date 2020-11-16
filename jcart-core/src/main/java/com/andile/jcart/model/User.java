@@ -2,15 +2,10 @@ package com.andile.jcart.model;
 
 import java.util.List;
 
-import javax.persistence.CascadeType;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.JoinTable;
-import javax.persistence.ManyToMany;
-import javax.persistence.Table;
+import javax.persistence.*;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
 
 import lombok.Data;
 
@@ -21,7 +16,16 @@ public class User {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer id;
+	@Column(nullable=false)
+	@NotEmpty
 	private String name;
+	@Column(nullable=false, unique=true)
+	@NotEmpty
+	@Email(message="{errors.invalid_email}")
+	private String email;
+	@Column(nullable=false)
+	@NotEmpty
+	@Size(min=4)
 	private String password;
 	private String passwordResetToken;
 

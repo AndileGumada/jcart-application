@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class JCartCoreApplication {
+
 	public static void main(String[] args) {
 		SpringApplication.run(JCartCoreApplication.class, args);
 //		// Create the Flyway instance and point it to the database
@@ -13,5 +14,6 @@ public class JCartCoreApplication {
 //
 //		// Start the migration
 //		flyway.migrate();
+
 	}
 }

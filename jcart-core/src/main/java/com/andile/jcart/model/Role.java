@@ -33,7 +33,7 @@ public class Role {
 	@ManyToMany(mappedBy = "roles")
 	private List<User> users;
 	@ManyToMany
-		@JoinTable(name="roles_permission",joinColumns = {@JoinColumn(name="ROLES_ID",referencedColumnName = "ID")},
+		@JoinTable(name="role_permission",joinColumns = {@JoinColumn(name="ROLES_ID",referencedColumnName = "ID")},
 		inverseJoinColumns = {@JoinColumn(name="PERM_ID", referencedColumnName = "ID")})
 	private List<Permission> permissions;
 }
